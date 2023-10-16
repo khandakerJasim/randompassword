@@ -1,0 +1,39 @@
+body{
+    margin:0;
+    padding:0;
+    background-color:gainsboro;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    width:500px;
+    height:120px;
+    background-color: aquamarine;
+    align-items: center;
+    justify-content:space-between;
+    margin:auto;
+    text-align: center;
+
+}
+h2{
+    font-weight: bold;
+    text-align: center;
+    font-size: 23px;
+}
+#generatebutton{
+    background-color: brown;
+    color:azure;
+    font-size: 20px;
+    border:solid blanchedalmond;
+    border-radius: 5px;
+    cursor:pointer;
+}
+#generatebutton:hover{
+background-color: blue;
+}
+#generatepassword{
+    height:23px;
+    width:120px;
+    border:none;
+}
